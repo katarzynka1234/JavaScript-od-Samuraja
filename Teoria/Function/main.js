@@ -51,3 +51,14 @@ function showAllArguments(...items) {
     console.log(arguments);
     return items
 }
+
+var varFun = 5;
+
+function variablesInFunction() {
+    var varFun1 = 8;
+    varFun = 6;
+}
+
+variablesInFunction();
+
+console.log(varFun);
